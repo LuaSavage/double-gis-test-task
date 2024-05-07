@@ -1,0 +1,10 @@
+ORDER_SERVICE_APP_NAME="order-service"
+ORDER_SERVICE_DEBUG="true"
+ORDER_SERVICE_PUBLIC_PORT=8080
+
+export ORDER_SERVICE_APP_NAME
+export ORDER_SERVICE_DEBUG
+export ORDER_SERVICE_PUBLIC_PORT
+
+build-and-run:
+	go run ./cmd/order-service/main.go
